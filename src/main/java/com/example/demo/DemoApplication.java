@@ -11,7 +11,7 @@ public class DemoApplication {
 	
 	@GetMapping("\name")
 	public String getName(){
-		return "Hello Vault PKI";
+		return "Hello PKI";
 	}
 
 	public static void main(String[] args) {
